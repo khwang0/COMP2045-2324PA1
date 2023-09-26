@@ -7,8 +7,8 @@
 * Q & A: [Discord](https://discordapp.com/channels/1004554070083776672/1004554070083776678)
 * Assignment Website: [GitHub](https://github.com/khwang0/COMP2045-2324PA1)
 * Due: 
-  * UAT Due: 23:59pm TBD (Monday midnight)
-  * Programming Due: 23:59pm TBD (Thursday midnight)
+  * UAT Due: 23:59pm 2/10/2023 (Monday midnight)
+  * Programming Due: 23:59pm 19/10/2023 (Thursday midnight)
 * Download the starter code: [Sokoban](Sokoban.java) 
 * Download the demo program: [here](demo.jar)
 * Download everything from the assignment: [here](https://github.com/khwang0/COMP2045-2324PA1/archive/refs/heads/master.zip)
@@ -57,15 +57,24 @@ You don't need to do anything with this java file. The purpose of this file is t
 
 1. Open the file `TestClass.java`
 2. Click on the word `@Test` at line 31.
- ![![](add-JUnit.png)  ](img/add-JUnit.png)
-3. Click the red bulb and select `Add JUnit-5.x.x to classpath`.
- ![](img/add-5.5.png)  
+ 
+ ![](img/add-JUnit.png)
+
+3. Click the red bulb and select `Add JUnit4 to classpath`.
+ 
+ ![](img/add-5.5.png)
+
 4. Click the arrow on the left of `public class TestClass` at line 17 and select `Run Tests`.
-![](img/runTest.png)
-1. You shall see the following screen if there isn't any problem
-![](img/ok.png)  
-1. Or you will see some error if your code does not perform what it is suppose to do. For example in the figure below, the test case `testReadValidInput` is not working properly.
-![](img/notok.png) 
+ 
+ ![](img/runTest.png)
+
+5. You shall see the following screen if there isn't any problem
+ 
+ ![](img/ok.png)  
+
+6. Or you will see some error if your code does not perform what it is suppose to do. For example in the figure below, the test case `testReadValidInput` is not working properly.
+ 
+ ![](img/notok.png)
 
 > Note: If you are struggle with this file (e.g. cannot compile your code), simply delete this file. 
 
@@ -84,7 +93,7 @@ Submit your answers on Moodle.
 
 
 # Submission 
-For submission upload the file `Connect4.java` to GitHub classroom.  
+For submission upload the file `Sokoban.java` to Moodle.  
 
 Please be reminded that both the **Late Penalty Rule** and the **Penalty for Plagiarism** are applied strictly to all submissions of this course (including this assignment).   
 
@@ -115,20 +124,20 @@ if (lateHour > 0) {
 > # Terms about generative AI
 > You are not allowed to use any generative AI in this assignment.
 > The reason is straight forward. If you use generative AI, you are
-> unable to practice your coding skills. We would like you to get
+> unable to practise your coding skills. We would like you to get
 > familiar with the syntax and the logic of the Java programming.
 > We will examine your code using detection software as well as 
 > inspecting your code with our eyes. Using generative AI tool 
 > may fail your assignment.
 
 ## Marking Scheme 
-This assignment is worth X% of the course mark.  There are three elements in the marking scheme: 
+This assignment is worth 14% of the course mark (7% for COMP2026).  There are three elements in the marking scheme: 
 * 5% - Understanding the Assignment Test (UAT)
 * 10% - the program can be compiled without any error
-* 75% - a working program that functions as specified 
-* 10% - completion of the `runApp` method.
+* 85% - a working program that functions as specified 
 * -50% - if you define any class variable (field), addition class, or change the method `main`.
 * -30% - if you use any advanced data structure such as `java.util.List`, `java.util.ArrayList`, `java.util.Arrays`, `java.util.Set`, `java.util.Map` etc to replace your primitive array.
+* -10% - Unable to fill adequate comments, e.g. the `runApp` method. 
 
 Please note that submitting a program that cannot be compiled would result in a very low mark. 
 
